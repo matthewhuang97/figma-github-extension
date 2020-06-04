@@ -1,7 +1,7 @@
 {
-  "name": "Flippy for Github",
-  "version": "1.0",
-  "description": "Better github.com experience for Figma",
+  "name": "Branchy",
+  "version": "0.1",
+  "description": "Better github.com experience for Figma Internal",
   "manifest_version": 2,
   "content_scripts": [
     {
