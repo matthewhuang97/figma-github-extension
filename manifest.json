@@ -1,6 +1,16 @@
 {
-  "name": "Github Extension",
+  "name": "Flippy for Github",
   "version": "1.0",
   "description": "Better github.com experience for Figma",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["main.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": ["flippy.png", "figtree.png"]
 }
