@@ -1,0 +1,14 @@
+.flippyContainer {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.flippyButton {
+  margin-right: 10px;
+  background-image: linear-gradient(-180deg, #ffbfb8, #ff9184 90%) !important;
+}
+
+.flippyButton:hover {
+  background-image: linear-gradient(-180deg, #ffb4ac, #ff897c 90%) !important;
+}
